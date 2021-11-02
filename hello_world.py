@@ -87,3 +87,11 @@ print(10%3)
 
 for k in range (1, 100, 2):
     print (k)
+
+for numero in range(2,101):
+    primo = True
+    for i in range(2,numero):
+        if (numero%i==0):
+            primo = False
+    if primo:
+       print (numero)
